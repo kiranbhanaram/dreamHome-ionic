@@ -6,7 +6,7 @@ let properties: Array<any> = [
         state: "MA",
         zip: "01742",
         price: "$975,000",
-        title: "Stunning Victorian",
+        title: "Property1",
         bedrooms: 4,
         bathrooms: 3,
         long: -71.11095,
@@ -17,7 +17,7 @@ let properties: Array<any> = [
         description: "Lorem ipsum dolor sit amet",
         broker: {
             id: 1,
-            name: "Caroline Kingsley",
+            name: "Broker1",
             title: "Senior Broker",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/caroline_kingsley.jpg"
         }
@@ -29,7 +29,7 @@ let properties: Array<any> = [
         state: "MA",
         zip: "02420",
         price: "$1,200,000",
-        title: "Ultimate Sophistication",
+        title: "Property2",
         bedrooms: 5,
         bathrooms: 4,
         long: -71.10869,
@@ -40,7 +40,7 @@ let properties: Array<any> = [
         description: "Lorem ipsum dolor sit amet",
         broker: {
             id: 1,
-            name: "Caroline Kingsley",
+            name: "Broker1",
             title: "Senior Broker",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/caroline_kingsley.jpg"
         }
@@ -52,7 +52,7 @@ let properties: Array<any> = [
         state: "MA",
         zip: "02420",
         price: "$825,000",
-        title: "Modern City Living",
+        title: "Property3",
         bedrooms: 5,
         bathrooms: 4,
         long: -71.070061,
@@ -63,7 +63,7 @@ let properties: Array<any> = [
         description: "Lorem ipsum dolor sit amet",
         broker: {
             id: 2,
-            name: "Michael Jones",
+            name: "Broker2",
             title: "Senior Broker",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/michael_jones.jpg"
         }
@@ -75,7 +75,7 @@ let properties: Array<any> = [
         state: "MA",
         zip: "02420",
         price: "$930,000",
-        title: "Stunning Colonial",
+        title: "Property4",
         bedrooms: 5,
         bathrooms: 4,
         long: -71.110448,
@@ -86,7 +86,7 @@ let properties: Array<any> = [
         description: "Lorem ipsum dolor sit amet",
         broker: {
             id: 3,
-            name: "Jonathan Bradley",
+            name: "Broker3",
             title: "Senior Broker",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jonathan_bradley.jpg"
         }
@@ -98,7 +98,7 @@ let properties: Array<any> = [
         state: "MA",
         zip: "02420",
         price: "$850,000",
-        title: "Waterfront in the City",
+        title: "Property5",
         bedrooms: 3,
         bathrooms: 2,
         long: -71.084454,
@@ -109,7 +109,7 @@ let properties: Array<any> = [
         description: "Lorem ipsum dolor sit amet",
         broker: {
             id: 4,
-            name: "Jennifer Wu",
+            name: "Broker4",
             title: "Senior Broker",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jennifer_wu.jpg"
         }
@@ -121,7 +121,7 @@ let properties: Array<any> = [
         state: "MA",
         zip: "02420",
         price: "$725,000",
-        title: "Quiet Retreat",
+        title: "Property6",
         bedrooms: 4,
         bathrooms: 2,
         long: -71.052617,
@@ -132,7 +132,7 @@ let properties: Array<any> = [
         description: "Lorem ipsum dolor sit amet",
         broker: {
             id: 5,
-            name: "Olivia Green",
+            name: "Broker5",
             title: "Senior Broker",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/olivia_green.jpg"
         }
@@ -144,7 +144,7 @@ let properties: Array<any> = [
         state: "MA",
         zip: "02420",
         price: "$450,000",
-        title: "City Living",
+        title: "Property7",
         bedrooms: 3,
         bathrooms: 1,
         long: -71.057352,
@@ -155,7 +155,7 @@ let properties: Array<any> = [
         description: "Lorem ipsum dolor sit amet",
         broker: {
             id: 6,
-            name: "Miriam Aupont",
+            name: "Broker6",
             title: "Senior Broker",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/miriam_aupont.jpg"
         }
@@ -167,7 +167,7 @@ let properties: Array<any> = [
         state: "MA",
         zip: "02420",
         price: "$450,000",
-        title: "Heart of Harvard Square",
+        title: "Property8",
         bedrooms: 5,
         bathrooms: 4,
         long: -71.121653,
@@ -178,7 +178,7 @@ let properties: Array<any> = [
         description: "Lorem ipsum dolor sit amet",
         broker: {
             id: 7,
-            name: "Michelle Lambert",
+            name: "Broker7",
             title: "Senior Broker",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/michelle_lambert.jpg"
         }
@@ -190,7 +190,7 @@ let properties: Array<any> = [
         state: "MA",
         zip: "02420",
         price: "$450,000",
-        title: "Seaport District Retreat",
+        title: "Property9",
         bedrooms: 3,
         bathrooms: 3,
         long: -71.049327,
@@ -201,7 +201,7 @@ let properties: Array<any> = [
         description: "Lorem ipsum dolor sit amet",
         broker: {
             id: 2,
-            name: "Michael Jones",
+            name: "Broker2",
             title: "Senior Broker",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/michael_jones.jpg"
         }
@@ -213,7 +213,7 @@ let properties: Array<any> = [
         state: "MA",
         zip: "02420",
         price: "$650,000",
-        title: "City Living",
+        title: "Property10",
         bedrooms: 2,
         bathrooms: 2,
         long: -71.105475,
@@ -224,7 +224,7 @@ let properties: Array<any> = [
         description: "Lorem ipsum dolor sit amet",
         broker: {
             id: 1,
-            name: "Caroline Kingsley",
+            name: "Broker1",
             title: "Senior Broker",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/caroline_kingsley.jpg"
         }
@@ -236,7 +236,7 @@ let properties: Array<any> = [
         state: "MA",
         zip: "02420",
         price: "$690,000",
-        title: "Architectural Details",
+        title: "Property11",
         bedrooms: 3,
         bathrooms: 3,
         lat: 42.349693,
@@ -247,7 +247,7 @@ let properties: Array<any> = [
         description: "Lorem ipsum dolor sit amet",
         broker: {
             id: 4,
-            name: "Jennifer Wu",
+            name: "Broker4",
             title: "Senior Broker",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jennifer_wu.jpg"
         }
@@ -259,7 +259,7 @@ let properties: Array<any> = [
         state: "MA",
         zip: "02420",
         price: "$845,000",
-        title: "Contemporary Luxury",
+        title: "Property12",
         bedrooms: 4,
         bathrooms: 3,
         lat: 42.352466,
@@ -270,7 +270,7 @@ let properties: Array<any> = [
         description: "Lorem ipsum dolor sit amet",
         broker: {
             id: 5,
-            name: "Olivia Green",
+            name: "Broker5",
             title: "Senior Broker",
             picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/olivia_green.jpg"
         }

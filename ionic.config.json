@@ -1,6 +1,7 @@
 {
   "name": "dreamhouse-ionic3",
-  "app_id": "",
+  "integrations": {},
+  "type": "angular",
   "v2": true,
   "typescript": true
 }

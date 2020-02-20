@@ -1,7 +1,7 @@
 let brokers: Array<any> = [
     {
         id: 1,
-        name: "Caroline Kingsley",
+        name: "Broker1",
         title: "Senior Broker",
         phone: "617-244-3672",
         mobilePhone: "617-244-3672",
@@ -10,7 +10,7 @@ let brokers: Array<any> = [
     },
     {
         id: 2,
-        name: "Michael Jones",
+        name: "Broker2",
         title: "Senior Broker",
         phone: "617-244-3672",
         mobilePhone: "617-244-3672",
@@ -19,7 +19,7 @@ let brokers: Array<any> = [
     },
     {
         id: 3,
-        name: "Jonathan Bradley",
+        name: "Broker3",
         title: "Senior Broker",
         phone: "617-244-3672",
         mobilePhone: "617-244-3672",
@@ -28,7 +28,7 @@ let brokers: Array<any> = [
     },
     {
         id: 4,
-        name: "Jennifer Wu",
+        name: "Broker4",
         title: "Senior Broker",
         phone: "617-244-3672",
         mobilePhone: "617-244-3672",
@@ -37,7 +37,7 @@ let brokers: Array<any> = [
     },
     {
         id: 5,
-        name: "Olivia Green",
+        name: "Broker5",
         title: "Senior Broker",
         phone: "617-244-3672",
         mobilePhone: "617-244-3672",
@@ -46,7 +46,7 @@ let brokers: Array<any> = [
     },
     {
         id: 6,
-        name: "Miriam Aupont",
+        name: "Broker6",
         title: "Senior Broker",
         phone: "617-244-3672",
         mobilePhone: "617-244-3672",
@@ -55,7 +55,7 @@ let brokers: Array<any> = [
     },
     {
         id: 7,
-        name: "Michelle Lambert",
+        name: "Broker7",
         title: "Senior Broker",
         phone: "617-244-3672",
         mobilePhone: "617-244-3672",
@@ -64,7 +64,7 @@ let brokers: Array<any> = [
     },
     {
         id: 8,
-        name: "Victor Ochoa",
+        name: "Broker8",
         title: "Senior Broker",
         phone: "617-244-3672",
         mobilePhone: "617-244-3672",

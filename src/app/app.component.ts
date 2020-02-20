@@ -8,6 +8,7 @@ import {BrokerListPage} from '../pages/broker-list/broker-list';
 import {FavoriteListPage} from '../pages/favorite-list/favorite-list';
 import {WelcomePage} from '../pages/welcome/welcome';
 import {AboutPage} from '../pages/about/about';
+import { LoginComponent } from './login';
 
 export interface MenuItem {
     title: string;
@@ -21,7 +22,7 @@ export interface MenuItem {
 export class MyApp {
     @ViewChild(Nav) nav: Nav;
 
-    rootPage: any = WelcomePage;
+    rootPage: any = LoginComponent;
 
     appMenuItems: Array<MenuItem>;
 
@@ -32,16 +33,18 @@ export class MyApp {
     constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
         this.initializeApp();
 
+        
+
         this.appMenuItems = [
             {title: 'Properties', component: PropertyListPage, icon: 'home'},
             {title: 'Brokers', component: BrokerListPage, icon: 'people'},
-            {title: 'Favorites', component: FavoriteListPage, icon: 'star'},
-            {title: 'Get Preapproved', component: WelcomePage, icon: 'checkmark-circle'},
+            {title: 'Favorites', component: FavoriteListPage, icon: 'star'}
+            
         ];
 
         this.accountMenuItems = [
             {title: 'My Account', component: WelcomePage, icon: 'ios-contact'},
-            {title: 'Logout', component: WelcomePage, icon: 'log-out'},
+            {title: 'Logout', component: LoginComponent, icon: 'log-out'},
         ];
 
         this.helpMenuItems = [
@@ -64,5 +67,6 @@ export class MyApp {
         // Reset the content nav to have just this page
         // we wouldn't want the back button to show in this scenario
         this.nav.setRoot(page.component);
+        //this.nav.setRoot(LoginComponent);
     }
 }
